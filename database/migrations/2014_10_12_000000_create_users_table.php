@@ -21,6 +21,11 @@ class CreateUsersTable extends Migration
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
+
+
+            $table->decimal('balance', 16, 8)->default(0); // this is stored as USD balance as default currency
+            
+
         });
     }
 

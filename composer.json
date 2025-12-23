@@ -1,5 +1,5 @@
 {
-    "name": "laravel/laravel",
+    "name": "laravel/exchange-mini-engine",
     "type": "project",
     "description": "The Laravel Framework.",
     "keywords": ["framework", "laravel"],
